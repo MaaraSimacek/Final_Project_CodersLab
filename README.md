@@ -19,4 +19,5 @@ FAQ - "nejčastější otazky" při kliknutí na tlačítko se zobrazí odpově�
 Kontakty
 
 API - TMSb - https://www.themoviedb.org/
-https://api.themoviedb.org/3/search/movie?api_key=b2cb3eac139e8e545436d02742b28241&query=Inception
+KEY: b2cb3eac139e8e545436d02742b28241
+https://api.themoviedb.org/3/movie/top_rated?api_key=b2cb3eac139e8e545436d02742b28241&page=1

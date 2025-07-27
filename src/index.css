@@ -3,4 +3,10 @@ html { box-sizing: border-box; }
 
 body {
   font-family: "Michroma", sans-serif;
+  background: #0A0E1A;
+  color: #AABBCD;
+}
+
+h1 {
+  color: #F1F1F1;
 }
