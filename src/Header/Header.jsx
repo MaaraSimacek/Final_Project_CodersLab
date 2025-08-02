@@ -7,7 +7,6 @@ export function Header() {
   return (
       <header>
         <Link className="header__logo" to="/"><SiThemoviedatabase /></Link>
-        {/* <h1 className="header__logo"><SiThemoviedatabase /></h1> */}
 
         <nav className="header__nav">
           <Link className="header__link" to="/">Home</Link>

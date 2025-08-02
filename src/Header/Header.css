@@ -6,6 +6,7 @@ header {
   background-image: url("img/header__background2.png");
   background-size: cover;
   background-position: bottom;
+  margin-bottom: 30px;
 }
 
 .header__logo {
