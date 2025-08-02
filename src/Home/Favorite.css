@@ -1,0 +1,36 @@
+.favorite__all-movies {
+  /* width: 1700px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.favorite__one-movie {
+  width: 350px;
+  border: 2px solid #2A3545;
+  background: #1B2535;
+  margin: 10px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s linear;
+}
+
+.favorite__one-movie:hover {
+  transform: scale(1.05);
+}
+
+.favorite__one-movie img {
+  height: 400px;
+}
+
+.favorite__one-movie h2 {
+  color: #F1F1F1;
+}
+
+.favorite__star {
+  font-size: 16px;
+  color: yellow;
+}

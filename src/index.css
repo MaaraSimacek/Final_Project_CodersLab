@@ -5,6 +5,8 @@ body {
   font-family: "Michroma", sans-serif;
   background: #0A0E1A;
   color: #AABBCD;
+  width: 80vw;
+  margin: auto;
 }
 
 h1 {

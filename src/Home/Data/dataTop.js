@@ -1,4 +1,4 @@
-export const top = [
+const top = [
   {
   "adult": false,
   "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
@@ -193,4 +193,4 @@ export const top = [
   },
 ]
 
-
+export default top

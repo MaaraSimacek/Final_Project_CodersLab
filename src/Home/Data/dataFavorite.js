@@ -1,4 +1,4 @@
-export const favorite = [
+const favorite = [
   {
   "adult": false,
   "backdrop_path": "/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
@@ -81,44 +81,44 @@ export const favorite = [
 
   {
   "adult": false,
-  "backdrop_path": "/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+  "backdrop_path": "/j9eOeLlTGoHoM8BNUJVNyWmIvCi.jpg",
   "genre_ids": [
-  12,
-  14,
-  28
+  10749,
+  35
   ],
-  "id": 122,
+  "id": 1072790,
   "original_language": "en",
-  "original_title": "The Lord of the Rings: The Return of the King",
-  "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
-  "popularity": 26.6628,
-  "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-  "release_date": "2003-12-17",
-  "title": "The Lord of the Rings: The Return of the King",
+  "original_title": "Anyone But You",
+  "overview": "After an amazing first date, Bea and Ben’s fiery attraction turns ice cold — until they find themselves unexpectedly reunited at a destination wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+  "popularity": 14.6049,
+  "poster_path": "/5qHoazZiaLe7oFBok7XlUhg96f2.jpg",
+  "release_date": "2023-12-21",
+  "title": "Anyone But You",
   "video": false,
-  "vote_average": 8.488,
-  "vote_count": 25296
+  "vote_average": 6.841,
+  "vote_count": 2664
   },
 
-  {
-  "adult": false,
-  "backdrop_path": "/2Y7nbXrDtHwAfcTX7KBN0z40OAy.jpg",
-  "genre_ids": [
-  12,
-  28
-  ],
-  "id": 89,
-  "original_language": "en",
-  "original_title": "Indiana Jones and the Last Crusade",
-  "overview": "In 1938, an art collector appeals to eminent archaeologist Dr. Indiana Jones to embark on a search for the Holy Grail. Indy learns that a medieval historian has vanished while searching for it, and the missing man is his own father, Dr. Henry Jones Sr.. He sets out to rescue his father by following clues in the old man's notebook, which his father had mailed to him before he went missing. Indy arrives in Venice, where he enlists the help of a beautiful academic, Dr. Elsa Schneider, along with Marcus Brody and Sallah. Together they must stop the Nazis from recovering the power of eternal life and taking over the world!",
-  "popularity": 8.6692,
-  "poster_path": "/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
-  "release_date": "1989-05-24",
-  "title": "Indiana Jones and the Last Crusade",
-  "video": false,
-  "vote_average": 7.847,
-  "vote_count": 10537
-  },
+{
+"adult": false,
+"backdrop_path": "/yCnJT53HMXAK87xzPAdjdYhZ3JE.jpg",
+"genre_ids": [
+18,
+9648,
+878
+],
+"id": 1124,
+"original_language": "en",
+"original_title": "The Prestige",
+"overview": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+"popularity": 12.6751,
+"poster_path": "/a03qYIZM0zkEutN5JRZddTBmQqY.jpg",
+"release_date": "2006-10-17",
+"title": "The Prestige",
+"video": false,
+"vote_average": 8.2,
+"vote_count": 16669
+},
 
   {
   "adult": false,
@@ -307,3 +307,5 @@ export const favorite = [
   "vote_count": 3217
   },
 ]
+
+export default favorite

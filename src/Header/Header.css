@@ -1,5 +1,5 @@
 header {
-  height: 200px;
+  height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,13 +12,9 @@ header {
 .header__logo {
   text-decoration: none;
   color: #F1F1F1;
-  font-size: 75px;
+  font-size: 140px;
   margin-left: 70px;
   cursor: pointer;
-}
-
-.header__logo:hover {
-  font-size: 65px;
 }
 
 .header__nav {
@@ -28,12 +24,23 @@ header {
 
 .header__link {
   text-decoration: none;
+  font-size: 20px;
   color: #F1F1F1;
-  padding: 5px 10px;
+  padding: 5px 15px;
+}
+
+.header__link.active {
+  font-weight: bold;
+  color: #4FC3F7;
+}
+
+.header__link.active:hover {
+  font-weight: bold;
+  color: #F1F1F1;
 }
 
 .header__link:hover {
   background: #4FC3F7;
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 30px;
 }

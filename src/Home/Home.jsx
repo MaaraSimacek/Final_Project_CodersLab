@@ -1,12 +1,18 @@
+import { Top } from "./Top"
+import { Favorite } from "./Favorite"
+
+import "./Home.css"
+
+
 export function Home() {
 
-  return(
+  return (
     <>
-      <h1>Home</h1>
+      <h1>TOP 10</h1>
+      {/* <Top /> */}
 
-      <h2>TOP 10</h2>
-
-      <h2>Náš Výběr</h2>
+      <h1>Favorites</h1>
+      <Favorite />
     </>
   )
 }
