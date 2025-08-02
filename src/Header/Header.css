@@ -1,0 +1,38 @@
+header {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("img/header__background2.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #F1F1F1;
+  font-size: 75px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  font-size: 65px;
+}
+
+.header__nav {
+  display: flex;
+  margin-right: 70px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #F1F1F1;
+  padding: 5px 10px;
+}
+
+.header__link:hover {
+  background: #4FC3F7;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
