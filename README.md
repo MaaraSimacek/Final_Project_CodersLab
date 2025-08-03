@@ -21,3 +21,25 @@ Kontakty
 API - TMSb - https://www.themoviedb.org/
 KEY: b2cb3eac139e8e545436d02742b28241
 https://api.themoviedb.org/3/movie/top_rated?api_key=b2cb3eac139e8e545436d02742b28241&page=1
+
+Barvy
+
+🔷 MODRÁ ELEGANTNÍ PALETA (dark Apple styl)
+
+🎨 Hlavní:
+Background: #0A0E1A – temně námořnická modř
+Surface / Cards: #1B2535 – chladná tmavě modrá vrstva
+
+💡 Texty:
+Primární text: #F1F1F1
+Sekundární text: #AABBCD
+Disabled: #5F6F80
+
+🔘 Akcenty:
+Sky Blue: #4FC3F7 – příjemná, čistá, ideální na tlačítka
+Ice Blue: #00E5FF – neonovější, pro hover/aktivní stavy
+Gradient akcent: linear-gradient(135deg, #2196F3, #00BCD4)
+
+🎯 Extra:
+Borders: #2A3545
+

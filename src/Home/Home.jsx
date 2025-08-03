@@ -8,11 +8,14 @@ export function Home() {
 
   return (
     <>
-      <h1>TOP 10</h1>
-      {/* <Top /> */}
+    <h1>TOP 10</h1>
 
-      <h1>Favorites</h1>
-      <Favorite />
+    <div className="slider"> 
+      <Top />
+    </div>
+
+    <h1>Our Selection</h1>
+    <Favorite />
     </>
   )
 }

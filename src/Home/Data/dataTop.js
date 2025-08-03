@@ -1,5 +1,6 @@
 const top = [
   {
+  "rank": 1,
   "adult": false,
   "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
   "genre_ids": [
@@ -15,10 +16,11 @@ const top = [
   "release_date": "1994-09-23",
   "title": "The Shawshank Redemption",
   "video": false,
-  "vote_average": 8.712,
+  "vote_average": 9.572,
   "vote_count": 28616
   },
   {
+  "rank": 2,
   "adult": false,
   "backdrop_path": "/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
   "genre_ids": [
@@ -35,10 +37,11 @@ const top = [
   "release_date": "1994-06-23",
   "title": "Forrest Gump",
   "video": false,
-  "vote_average": 8.468,
+  "vote_average": 9.468,
   "vote_count": 28441
   },
   {
+  "rank": 3,
   "adult": false,
   "backdrop_path": "/vxJ08SvwomfKbpboCWynC3uqUg4.jpg",
   "genre_ids": [
@@ -55,10 +58,11 @@ const top = [
   "release_date": "1999-12-10",
   "title": "The Green Mile",
   "video": false,
-  "vote_average": 8.5,
+  "vote_average": 9.39,
   "vote_count": 18238
   },
   {
+  "rank": 4,
   "adult": false,
   "backdrop_path": "/p1PLSI5Nw2krGxD7X4ulul1tDAk.jpg",
   "genre_ids": [
@@ -75,10 +79,11 @@ const top = [
   "release_date": "1995-09-22",
   "title": "Se7en",
   "video": false,
-  "vote_average": 8.377,
+  "vote_average": 9.25,
   "vote_count": 21904
   },
   {
+  "rank": 5,
   "adult": false,
   "backdrop_path": "/uA8eSNAUUUyfHNIrG4h0zHxzt9W.jpg",
   "genre_ids": [
@@ -93,10 +98,11 @@ const top = [
   "release_date": "1975-11-19",
   "title": "One Flew Over the Cuckoo's Nest",
   "video": false,
-  "vote_average": 8.413,
+  "vote_average": 9.24,
   "vote_count": 10874
   },
   {
+  "rank": 6,
   "adult": false,
   "backdrop_path": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
   "genre_ids": [
@@ -113,10 +119,11 @@ const top = [
   "release_date": "1993-12-15",
   "title": "Schindler's List",
   "video": false,
-  "vote_average": 8.6,
+  "vote_average": 9.232,
   "vote_count": 16584
   },
   {
+   "rank": 7, 
   "adult": false,
   "backdrop_path": "/htuuuEwAvDVECMpb0ltLLyZyDDt.jpg",
   "genre_ids": [
@@ -132,10 +139,11 @@ const top = [
   "release_date": "1972-03-14",
   "title": "The Godfather",
   "video": false,
-  "vote_average": 8.686,
+  "vote_average": 9.166,
   "vote_count": 21659
   },
   {
+  "rank": 8,
   "adult": false,
   "backdrop_path": "/bxgTSUenZDHNFerQ1whRKplrMKF.jpg",
   "genre_ids": [
@@ -150,10 +158,11 @@ const top = [
   "release_date": "1957-04-10",
   "title": "12 Angry Men",
   "video": false,
-  "vote_average": 8.549,
+  "vote_average": 9.149,
   "vote_count": 9283
   },
   {
+  "rank": 9,
   "adult": false,
   "backdrop_path": "/q6OGlZ1KMEb14AC8KbPCxyNOal6.jpg",
   "genre_ids": [
@@ -169,10 +178,11 @@ const top = [
   "release_date": "2011-11-02",
   "title": "The Intouchables",
   "video": false,
-  "vote_average": 8.3,
+  "vote_average": 9.132,
   "vote_count": 17741
   },
   {
+  "rank": 10,
   "adult": false,
   "backdrop_path": "/dh0kt3LycrBfsP8dLw85rt9k8uk.jpg",
   "genre_ids": [
@@ -188,7 +198,7 @@ const top = [
   "release_date": "1999-04-08",
   "title": "Cosy Dens",
   "video": false,
-  "vote_average": 7.979,
+  "vote_average": 9.123,
   "vote_count": 95
   },
 ]
