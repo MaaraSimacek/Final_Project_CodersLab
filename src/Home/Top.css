@@ -16,9 +16,9 @@
 .top__all-movies-content {
   display: flex;
   flex-direction: row;
-  width: 500px; /* UPRAVIT */
+  width: 500px;
   overflow: hidden;
-  height: 800px; /* UPRAVIT */
+  height: 800px;
   text-align: center;
   position: relative;
 }
