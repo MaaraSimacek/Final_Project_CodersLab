@@ -2,6 +2,7 @@
   text-align: center;
   background: #1B2535;
   border: #2A3545;
+  border-radius: 15px;
   padding: 15px;
 }
 
@@ -26,6 +27,7 @@
 .top__all-movies-content img {
   width: 70%;
   height: 450px;
+  border-radius: 15px;
 }
 
 .top__all-movies-content article {

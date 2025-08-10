@@ -22,6 +22,7 @@ API - TMSb - https://www.themoviedb.org/
 KEY: b2cb3eac139e8e545436d02742b28241
 https://api.themoviedb.org/3/movie/top_rated?api_key=b2cb3eac139e8e545436d02742b28241&page=1
 
+
 Barvy
 
 🔷 MODRÁ ELEGANTNÍ PALETA (dark Apple styl)

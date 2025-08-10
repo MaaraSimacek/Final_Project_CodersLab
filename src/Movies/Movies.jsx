@@ -26,26 +26,8 @@ export function Movies() {
       <button>Kategorie</button>
       <button>Kategorie</button>
 
-      <Search />
+      <Search movies={movieData}/>
 
-      {
-        movieData === null
-        ? <p>Načítám data...</p>
-        : <div className="movies__all-movies">
-          {
-            movieData.map(oneMovie => ( 
-              <div className="movies__one-movie"key={oneMovie.id}>
-              <img src={`https://image.tmdb.org/t/p/w200${oneMovie.poster_path}`} alt={oneMovie.title}/>
-              <h2>{oneMovie.title}</h2>
-              <p>Rating: {oneMovie.vote_average.toFixed(2)} <FaStar className="favorite__star"/></p>
-              <p>{oneMovie.overview}</p> 
-              <FaHeart className="movies__icon"/>
-            </div>
-            ))
-          }
-        </div>
-      }
-
-     </section>
+    </section>
   )
 }
