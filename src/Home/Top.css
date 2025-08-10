@@ -19,9 +19,13 @@
   flex-direction: row;
   width: 500px;
   overflow: hidden;
-  height: 800px;
+  height: 750px;
   text-align: center;
   position: relative;
+}
+
+.top__all-movies-content p {
+  margin-top: 25px;
 }
 
 .top__all-movies-content img {

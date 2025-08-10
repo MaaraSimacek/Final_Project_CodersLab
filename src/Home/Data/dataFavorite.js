@@ -245,24 +245,24 @@ const favorite = [
 
   {
   "adult": false,
-  "backdrop_path": "/qcP0HoJVDLoGwfoLKwzp6OzwY2u.jpg",
+  "backdrop_path": "/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
   "genre_ids": [
-  53,
   28,
   12,
-  878
+  878,
+  53
   ],
-  "id": 44833,
+  "id": 135397,
   "original_language": "en",
-  "original_title": "Battleship",
-  "overview": "When mankind beams a radio signal into space, a reply comes from ‘Planet G’, in the form of several alien crafts that splash down in the waters off Hawaii. Lieutenant Alex Hopper is a weapons officer assigned to the USS John Paul Jones, part of an international naval coalition which becomes the world's last hope for survival as they engage the hostile alien force of unimaginable strength. While taking on the invaders, Hopper must also try to live up to the potential that his brother, and his fiancée's father—an Admiral—expect of him.",
-  "popularity": 6.7861,
-  "poster_path": "/9b0Im7SfedHiajTwzSL9zGyBI7M.jpg",
-  "release_date": "2012-04-11",
-  "title": "Battleship",
+  "original_title": "Jurassic World",
+  "overview": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
+  "popularity": 25.456,
+  "poster_path": "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
+  "release_date": "2015-06-06",
+  "title": "Jurassic World",
   "video": false,
-  "vote_average": 5.87,
-  "vote_count": 5665
+  "vote_average": 6.699,
+  "vote_count": 20903
   },
 
   {
