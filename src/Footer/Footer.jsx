@@ -4,10 +4,14 @@ import "./Footer.css"
 
 export function Footer() {
 
+const handleLogoClick = () => {
+  window.scrollTo(0, 0);
+}
+
   return (
     <footer>
         <div className="footer__container">
-          <Link className="footer__logo" to="/"><SiThemoviedatabase /></Link>
+          <Link className="footer__logo" to="/" onClick={handleLogoClick}><SiThemoviedatabase /></Link>
 
           <nav className="footer__nav">
             <Link className="footer__link" to="/">Home</Link>

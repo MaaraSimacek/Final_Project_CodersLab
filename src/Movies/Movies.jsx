@@ -10,12 +10,28 @@ export function Movies() {
   const [favorites, setFavorites] = useState([])
   const [showFavorites, setShowFavorites] = useState(false)
 
+  const API_KEY = "b2cb3eac139e8e545436d02742b28241"
+  const TOTAL_PAGES = 5;
+
+  // Načítání filmů z API
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=b2cb3eac139e8e545436d02742b28241&page=1`)
-      .then(response => response.json())
-      .then(data => setMovieData(data.results))
-      .catch(error => console.log(error))
-  }, [])
+  const fetchAllPages = async () => {
+    let allResults = [];
+    for (let page = 1; page <= TOTAL_PAGES; page++) {
+      try {
+        const response = await fetch(
+          `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&page=${page}`
+        );
+        const data = await response.json();
+        allResults = allResults.concat(data.results);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    setMovieData(allResults);
+  };
+  fetchAllPages();
+}, [API_KEY, TOTAL_PAGES]);
 
   // Filtrování filmů podle žánru
   let filteredMovies = movieData
@@ -25,6 +41,7 @@ export function Movies() {
     filteredMovies = movieData.filter(movie => movie.genre_ids.includes(selectedGenreId))
   }
 
+  // Přepínání oblíbených filmů
   const toggleFavorite = (movieId) => {
     setFavorites(favs =>
       favs.includes(movieId)
@@ -37,7 +54,7 @@ export function Movies() {
     <section className="movies__content">
 
       <h1>Movies</h1>
-
+      
       {genres.map(genre => (
         <button
           key={genre.id}
@@ -50,6 +67,7 @@ export function Movies() {
           {genre.name}
         </button>
       ))}
+
       <button
         className={`movies__genre-button${showFavorites ? " active" : ""}`}
         onClick={() => {
@@ -57,8 +75,9 @@ export function Movies() {
           setSelectedGenreId(null)
         }}
       >
-        Oblíbené
+        Favorites
       </button>
+      
       <button
         className={`movies__genre-button${selectedGenreId === null && !showFavorites ? " active" : ""}`}
         onClick={() => {
@@ -66,7 +85,7 @@ export function Movies() {
           setShowFavorites(false)
         }}
       >
-        Všechny
+        All Movies
       </button>
 
       <Search

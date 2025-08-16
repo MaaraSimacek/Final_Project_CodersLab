@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react"
-import "./Search.css"
 import { FaStar, FaHeart } from "react-icons/fa"
+import "./Search.css"
 
 export function Search({ movies, toggleFavorite, favorites }) {
   const [searchingText, setSearchingText] = useState("")
   const [filteredMovies, setFilteredMovies] = useState([])
 
+  // Filtruje filmy podle zadaného textu
   useEffect( () => {
     if (!movies) return;
     const moviesToFilter = movies.filter((oneMovie) => {
@@ -18,7 +19,14 @@ export function Search({ movies, toggleFavorite, favorites }) {
   return (
     <div>
       <form>
-        <input type="text" placeholder="Search movie" className="seach__input" onChange={(e) => {setSearchingText(e.target.value)}}/>
+        <input
+          type="text"
+          placeholder="Search movie"
+          className="seach__input"
+          value={searchingText}
+          onChange={e => setSearchingText(e.target.value)}
+          onBlur={() => setSearchingText("")}
+        />
       </form>
 
       {

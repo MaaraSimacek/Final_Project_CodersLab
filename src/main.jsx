@@ -14,6 +14,7 @@ import { Movies } from "./Movies/Movies.jsx"
 import { Faq } from "./FAQ/Faq.jsx"
 import { Contacts } from "./Contacts/Contacts.jsx"
 
+// Šablona stránek
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

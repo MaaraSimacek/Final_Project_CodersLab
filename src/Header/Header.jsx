@@ -2,28 +2,16 @@ import { Link, NavLink } from "react-router";
 import { SiThemoviedatabase } from "react-icons/si";
 import "./Header.css"
 
-// export function Header() {
-
-//   return (
-//       <header>
-//         <Link className="header__logo" to="/"><SiThemoviedatabase /></Link>
-
-//         <nav className="header__nav">
-//           <Link className="header__link" to="/">Home</Link>
-//           <Link className="header__link" to="movies">Movies</Link>
-//           <Link className="header__link" to="faq">FAQ</Link>
-//           <Link className="header__link" to="contacts">Contacts</Link>
-//         </nav>
-//       </header>
-//   )
-// }
-
 export function Header() {
   return (
     <header>
-      <Link className="header__logo" to="/"><SiThemoviedatabase /></Link>
+      
+      <Link className="header__logo" to="/">
+        <SiThemoviedatabase />
+      </Link>
 
       <nav className="header__nav">
+
         <NavLink
           to="/"
           className={({ isActive }) => `header__link ${isActive ? "active" : ""}`}
@@ -51,7 +39,9 @@ export function Header() {
         >
           Contacts
         </NavLink>
+
       </nav>
+
     </header>
   );
 }

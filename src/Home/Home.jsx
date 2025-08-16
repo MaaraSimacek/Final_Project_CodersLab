@@ -1,8 +1,6 @@
 import { Top } from "./Top"
 import { Favorite } from "./Favorite"
-
 import "./Home.css"
-
 
 export function Home() {
 

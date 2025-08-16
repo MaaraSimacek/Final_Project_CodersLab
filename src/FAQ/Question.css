@@ -29,12 +29,12 @@
 }
 
 .question__icon {
-font-size: 40px;
+font-size: 35px;
 }
 
-.question__icon:hover {
+.question__one-question button:hover {
   background: #4FC3F7;
   color: #F1F1F1;
-  padding: 25px;
+  height: 55px;
   border-radius: 30px;
 }
