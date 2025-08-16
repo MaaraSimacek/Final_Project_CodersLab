@@ -14,4 +14,4 @@ export function Faq() {
       </div>
     </div>
   )
-}
+} 
