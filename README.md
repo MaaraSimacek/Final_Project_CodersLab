@@ -44,3 +44,4 @@ Gradient akcent: linear-gradient(135deg, #2196F3, #00BCD4)
 🎯 Extra:
 Borders: #2A3545
 
+NETLIFY: https://unique-dasik-b171f6.netlify.app/
